@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react";
+import { createContext } from "react";
 import { useState } from "react";
 import { food_list } from "../assets/frontend_assets/assets";
 
@@ -35,7 +35,7 @@ const StoreContextProvider = (props) => {
     setCartItems,
     addToCart,
     removeFromCart,
-    getTotalCartAmount
+    getTotalCartAmount,
   };
   return (
     <StoreContext.Provider value={contextValue}>

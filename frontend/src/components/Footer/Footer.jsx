@@ -22,25 +22,27 @@ const Footer = () => {
         </div>
 
         <div className="footer-content-center">
-            <h2>COMPANY</h2>
-            <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
-            </ul>
+          <h2>COMPANY</h2>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Delivery</li>
+            <li>Privacy policy</li>
+          </ul>
         </div>
 
         <div className="footer-content-right">
-            <h2>GET IN TOUCH</h2>
-            <ul>
-                <li>+343545456465</li>
-                <li>contact@tomato.com</li>
-            </ul>
+          <h2>GET IN TOUCH</h2>
+          <ul>
+            <li>+343545456465</li>
+            <li>contact@tomato.com</li>
+          </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2026 aaa - All Right Reserved.</p>
+      <p className="footer-copyright">
+        Copyright 2026 aaa - All Right Reserved.
+      </p>
     </div>
   );
 };
